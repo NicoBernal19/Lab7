@@ -46,8 +46,8 @@ public class Lab7Application {
 	public CommandLineRunner run() {
 		return (args) -> {
 			log.info("Adding Employees....");
-			employeeService.addEmployee(new Employee("1", "Nicolas", "Bernal", "CEO", 1));
-			employeeService.addEmployee(new Employee("2", "Santiago", "Martinez", "Gerente", 2));
+			employeeService.addEmployee(new Employee("1", "Nicolas", "Bernal", "CEO", 1000));
+			employeeService.addEmployee(new Employee("2", "Santiago", "Martinez", "Gerente", 2000));
 			
 			log.info("Adding Configurations....");
 			configurationService.addConfiguration(new Configuration("premio", "810000"));
